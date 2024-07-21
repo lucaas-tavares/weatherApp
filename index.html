@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/sun.png" type="image/x-icon">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left-info">
+              <div class="pic-gradient"></div>
+            <div class="today-info">
+                <h2>Sexta-feira</h2>
+                <span>12 Julho 2024</span>
+                <div> 
+                    <i class='bx bx-current-location'></i>
+                    <span>Araucária, PR</span>
+                </div>
+            </div>
+            <div class="today-weather">
+                <i class='bx bx-cloud-rain' ></i>
+                <h1 class="weather-temp">
+                    17°C
+                </h1>
+                <h3>Nublado</h3>
+            </div>
+        </div>
+        <div class="right-info">
+            <div class="day-info">
+                <div>
+                    <span class="title">CHUVA</span>
+                    <span class="value">62 %</span>
+                </div>
+                <div>
+                    <span class="title">UMIDADE</span>
+                    <span class="value">83 %</span>
+                </div>
+                <div>
+                    <span class="title">VENTO</span>
+                    <span class="value">13 km/h</span>
+                </div>
+            </div>
+
+            <ul class="days-list">
+                <li>
+                    <i class='bx bx-cloud-rain' ></i>
+                    <span>Sex</span>
+                    <span class="day-temp">17°C</span>
+                </li>
+                <li>
+                    <i class='bx bx-cloud-rain' ></i>
+                    <span>Sab</span>
+                    <span class="day-temp">13°C</span>
+                </li>
+                <li>
+                    <i class='bx bx-cloud-rain' ></i>
+                    <span>Dom</span>
+                    <span class="day-temp">18°C</span>
+                </li>
+                <li>
+                    <i class='bx bx-cloud-rain' ></i>
+                    <span>Seg</span>
+                    <span class="day-temp">15°C</span>
+                </li>
+            </ul>
+            <div class="btn-container">
+                <button class="loc-button">Procurar Local</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
